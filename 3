@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+   int n, i;
+   cout<<"enter the no.";
+   cin>>n;
+   if (n <= 0) {
+    cout << "not power of 2";
+} else {
+    while (n % 2 == 0) {
+        n /= 2;
+    }
+    if (n == 1) cout << "power of 2";
+    else cout << "not power of 2";
+}
+    
+ 
+
+}
